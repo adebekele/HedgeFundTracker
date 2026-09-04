@@ -1,0 +1,82 @@
+{
+  "druckenmiller": {
+    "name": "Duquesne Family Office LLC",
+    "manager": "Stanley Druckenmiller",
+    "cik": "0001536411",
+    "style": "Macro",
+    "performance_weight": 5,
+    "weight_rationale": "Reportedly ~30% annualized average with no losing year across decades at Duquesne/Soros. Caveat: 13F only captures the long US equity sleeve, not the macro book (FX, rates, commodities) that defines his actual strategy."
+  },
+  "soros": {
+    "name": "Soros Fund Management LLC",
+    "manager": "George Soros",
+    "cik": "0001029160",
+    "style": "Macro",
+    "performance_weight": 5,
+    "weight_rationale": "Quantum Fund compounded at legendary rates (~30%+ annualized) for decades. Now run more as a family office; same caveat as Druckenmiller — 13F is a fraction of the real book."
+  },
+  "buffett": {
+    "name": "Berkshire Hathaway Inc",
+    "manager": "Warren Buffett",
+    "cik": "0001067983",
+    "style": "Value",
+    "performance_weight": 5,
+    "weight_rationale": "~19-20% annualized since 1965, the longest and most consistent public track record of any investor tracked here."
+  },
+  "appaloosa": {
+    "name": "Appaloosa LP",
+    "manager": "David Tepper",
+    "cik": "0001656456",
+    "style": "Distressed/Opportunistic",
+    "performance_weight": 5,
+    "weight_rationale": "One of the best absolute records in hedge fund history — reportedly 25-30%+ annualized net since inception, built on distressed debt and opportunistic equity bets."
+  },
+  "baupost": {
+    "name": "Baupost Group LLC",
+    "manager": "Seth Klarman",
+    "cik": "0001061768",
+    "style": "Value/Special Situations",
+    "performance_weight": 4,
+    "weight_rationale": "~20% annualized since 1983 with a strong risk-management/capital-preservation reputation."
+  },
+  "pershing_square": {
+    "name": "Pershing Square Capital Management LP",
+    "manager": "Bill Ackman",
+    "cik": "0001336528",
+    "style": "Activist",
+    "performance_weight": 4,
+    "weight_rationale": "Strong long-run record (~high-teens annualized since 2004) despite a severe 2015-2018 drawdown; concentrated, high-conviction activist bets."
+  },
+  "bridgewater": {
+    "name": "Bridgewater Associates LP",
+    "manager": "Ray Dalio (founder; multi-CIO since)",
+    "cik": "0001350694",
+    "style": "Macro",
+    "performance_weight": 3,
+    "weight_rationale": "Flagship Pure Alpha fund's long-run return (~11-12% annualized) is solid but unspectacular relative to peers here. Caveat: the 13F equity sleeve is a tiny, non-representative slice of the world's largest macro fund."
+  },
+  "renaissance": {
+    "name": "Renaissance Technologies LLC",
+    "manager": "Jim Simons (founder; d. 2024)",
+    "cik": "0001037389",
+    "style": "Quant",
+    "performance_weight": 3,
+    "weight_rationale": "IMPORTANT CAVEAT: the legendary ~66% gross/39% net annualized record belongs to Medallion, which is closed to outside investors and files no 13F. The 13F comes from RIEF/RIDA, Renaissance's external funds, which have had far more modest and uneven returns. Weighted down to reflect that the public 13F does not represent Renaissance's famous track record."
+  },
+  "greenlight": {
+    "name": "Greenlight Capital Inc",
+    "manager": "David Einhorn",
+    "cik": "0001079114",
+    "style": "Value/Long-Short",
+    "performance_weight": 2,
+    "weight_rationale": "Strong first decade (~20%+ annualized in the 2000s) but roughly flat-to-weak from 2015-2020 dragged the long-run blended record down to middling."
+  },
+  "scion": {
+    "name": "Scion Asset Management LLC",
+    "manager": "Michael Burry",
+    "cik": "0001649339",
+    "style": "Contrarian/Concentrated",
+    "performance_weight": 2,
+    "weight_rationale": "Famous for the 2007-08 subprime short (\"The Big Short\"), but limited consistent public track record since; runs a small, highly concentrated, and volatile public 13F book."
+  }
+}
