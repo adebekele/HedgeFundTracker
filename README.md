@@ -98,13 +98,33 @@ the group's newest as **STALE** in the report.
 
 ## Weekly automated report
 
-A scheduled task runs weekly: `fetch-all` to pick up any newly posted or
-amended filings, then `theme_report.py` to regenerate the consensus/theme
-report, delivered as a summary. Since most funds only refile quarterly, most
-weekly runs will report "no change" in the underlying data — the value is in
-catching a new filing within days rather than waiting for the next manual
-check, and once a new quarter's 13Fs land, surfacing what actually shifted
-across the group.
+A **Windows Task Scheduler** job ("HedgeFundTracker Weekly Report") runs
+`run_weekly.ps1` every Monday at 9:00 AM (catches up automatically if your PC
+is off/asleep at that time, via `StartWhenAvailable`). Each run:
+
+1. `py hedge_tracker.py fetch-all` — pulls any newly posted/amended filings
+2. `py theme_report.py` — regenerates the consensus/theme report and diffs it
+   against last week's
+3. Commits and pushes the updated snapshots/history/report to this repo
+   (best-effort — won't fail the run if git isn't set up to push silently)
+4. Opens the freshest `reports/<date>.md` in Notepad so you see it
+
+Logs for each run are written to `logs/run_<timestamp>.log` (gitignored).
+Since most funds only refile quarterly, most weekly runs will report "no
+change" in the underlying data — the value is in catching a new filing within
+days rather than waiting for the next manual check, and once a new quarter's
+13Fs land, surfacing what actually shifted across the group.
+
+To inspect or change the schedule:
+```powershell
+Get-ScheduledTask -TaskName "HedgeFundTracker Weekly Report" | Get-ScheduledTaskInfo
+```
+
+**Note:** this was originally meant to run as a cloud routine (works even if
+your PC is off) but got stuck on Claude's GitHub-account connection for
+routines returning "Connect your GitHub account" even after authorizing and
+restarting the app — worth revisiting later since the repo/script side is
+already fully ready for it (see conversation history for what was tried).
 
 ## Notes on the data
 
