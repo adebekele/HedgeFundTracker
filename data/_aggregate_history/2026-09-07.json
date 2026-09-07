@@ -1,0 +1,218 @@
+{
+  "run_date": "2026-09-07",
+  "newest_report_date": "2026-06-30",
+  "top_25": [
+    {
+      "cusip": "023135106",
+      "issuer": "AMAZON COM INC",
+      "score": 2.6098949721910745,
+      "fund_count": 7
+    },
+    {
+      "cusip": "037833100",
+      "issuer": "APPLE INC",
+      "score": 1.3843098594028382,
+      "fund_count": 5
+    },
+    {
+      "cusip": "69608A108",
+      "issuer": "PALANTIR TECHNOLOGIES INC",
+      "score": 1.357216126749166,
+      "fund_count": 2
+    },
+    {
+      "cusip": "874039100",
+      "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+      "score": 1.001952049984737,
+      "fund_count": 5
+    },
+    {
+      "cusip": "02079K107",
+      "issuer": "ALPHABET INC",
+      "score": 0.9938964079763921,
+      "fund_count": 6
+    },
+    {
+      "cusip": "90353T100",
+      "issuer": "UBER TECHNOLOGIES INC",
+      "score": 0.9918618400658294,
+      "fund_count": 3
+    },
+    {
+      "cusip": "025816109",
+      "issuer": "AMERICAN EXPRESS CO",
+      "score": 0.8585519390342523,
+      "fund_count": 3
+    },
+    {
+      "cusip": "76131D103",
+      "issuer": "RESTAURANT BRANDS INTL INC",
+      "score": 0.8505518888126631,
+      "fund_count": 3
+    },
+    {
+      "cusip": "632307104",
+      "issuer": "NATERA INC",
+      "score": 0.8301290944779286,
+      "fund_count": 2
+    },
+    {
+      "cusip": "02079K305",
+      "issuer": "ALPHABET INC",
+      "score": 0.8117010233828817,
+      "fund_count": 6
+    },
+    {
+      "cusip": "67066G104",
+      "issuer": "NVIDIA CORPORATION",
+      "score": 0.8014156112256594,
+      "fund_count": 5
+    },
+    {
+      "cusip": "30303M102",
+      "issuer": "META PLATFORMS INC",
+      "score": 0.7793738784681356,
+      "fund_count": 6
+    },
+    {
+      "cusip": "595112103",
+      "issuer": "MICRON TECHNOLOGY INC",
+      "score": 0.7709529596551822,
+      "fund_count": 4
+    },
+    {
+      "cusip": "11271J107",
+      "issuer": "BROOKFIELD CORP",
+      "score": 0.7046501921313065,
+      "fund_count": 1
+    },
+    {
+      "cusip": "594918104",
+      "issuer": "MICROSOFT CORP",
+      "score": 0.6867316405823087,
+      "fund_count": 4
+    },
+    {
+      "cusip": "392709101",
+      "issuer": "GREEN BRICK PARTNERS INC",
+      "score": 0.5784863195376391,
+      "fund_count": 1
+    },
+    {
+      "cusip": "191216100",
+      "issuer": "COCA COLA CO",
+      "score": 0.5529376359135264,
+      "fund_count": 4
+    },
+    {
+      "cusip": "060505104",
+      "issuer": "BANK OF AMER CORP",
+      "score": 0.4673658374118527,
+      "fund_count": 2
+    },
+    {
+      "cusip": "036752103",
+      "issuer": "ELEVANCE HEALTH INC FORMERLY",
+      "score": 0.36743689949864244,
+      "fund_count": 2
+    },
+    {
+      "cusip": "44267T102",
+      "issuer": "HOWARD HUGHES HOLDINGS INC",
+      "score": 0.34790297445252033,
+      "fund_count": 2
+    },
+    {
+      "cusip": "457669307",
+      "issuer": "INSMED INC",
+      "score": 0.2898416265553714,
+      "fund_count": 2
+    },
+    {
+      "cusip": "907818108",
+      "issuer": "UNION PAC CORP",
+      "score": 0.257835465354548,
+      "fund_count": 3
+    },
+    {
+      "cusip": "166764100",
+      "issuer": "CHEVRON CORPORATION",
+      "score": 0.2564978268526217,
+      "fund_count": 3
+    },
+    {
+      "cusip": "31488V107",
+      "issuer": "FERGUSON ENTERPRISES INC",
+      "score": 0.2560032456804649,
+      "fund_count": 3
+    },
+    {
+      "cusip": "92840M102",
+      "issuer": "VISTRA CORP",
+      "score": 0.24753926223975353,
+      "fund_count": 4
+    }
+  ],
+  "sector_ranking": [
+    {
+      "sector": "Big Tech/Software/Internet",
+      "score": 9.386335496610778
+    },
+    {
+      "sector": "Other/Unclassified",
+      "score": 8.472284189033294
+    },
+    {
+      "sector": "Semiconductors/AI Hardware",
+      "score": 3.736704325918656
+    },
+    {
+      "sector": "Healthcare/Biotech/Pharma",
+      "score": 2.9006520217654694
+    },
+    {
+      "sector": "Banks/Financials",
+      "score": 2.676636602047576
+    },
+    {
+      "sector": "Broad-Market ETFs/Index Products",
+      "score": 2.144000358845605
+    },
+    {
+      "sector": "Energy/Oil & Gas/Utilities",
+      "score": 2.0519398246254776
+    },
+    {
+      "sector": "Consumer/Retail/Restaurants",
+      "score": 1.9762780175910966
+    },
+    {
+      "sector": "Transportation/Travel",
+      "score": 1.3477560202966257
+    },
+    {
+      "sector": "Real Estate/REIT",
+      "score": 1.0608310851854756
+    },
+    {
+      "sector": "Industrials/Materials",
+      "score": 0.8593462548240964
+    },
+    {
+      "sector": "Insurance",
+      "score": 0.5853819832557944
+    },
+    {
+      "sector": "Media/Entertainment/Gaming",
+      "score": 0.3382887407262437
+    },
+    {
+      "sector": "Payments/Fintech",
+      "score": 0.2594491188647762
+    },
+    {
+      "sector": "Autos/EV",
+      "score": 0.20411596040902544
+    }
+  ]
+}
